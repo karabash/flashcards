@@ -1,0 +1,64 @@
+What are the three components of the CIA Triangle?	0	Confidentiality, Integrity, Availability	Communication, Information, Access	Control, Inspection, Authorization	Confidentiality, Inspection, Authentication
+Which term refers to protecting communications media, technology, and content?	1	Physical security	Communications security	Network security	nformation security
+Which security area protects the confidentiality, integrity, and availability of information assets in storage, processing, or transmission?	2	Network security	Communications security	Information security	Physical security
+Network security is best described as:  A. Protection of buildings and equipment B. A subset of communications security that protects voice, data, and networking components C. Protection of information only while stored D. A state of being free from harm	3	Protection of buildings and equipment	Protection of information only while stored	A state of being free from harm	A subset of communications security that protects voice, data, and networking components
+What does physical security protect?	3	Internet connections and network traffic	Data while it is being transmitted	Only passwords and user accounts	Physical items, objects, and areas from unauthorized access and misuse
+In a security context, “security” means:	0	Keeping information secret at all times	A state of being secure and free from danger or harm, plus actions taken to achieve it	Preventing only network-based attacks	Ensuring that systems remain available
+Multiple-Choice Questions: Security	1	Increasing an organization’s profit	Protection from adversaries who may cause harm	Reducing the number of employees	Improving marketing
+What does national security protect?	2	Only military resources	Only a country’s economy	The sovereign of a state, its assets, resources, and people	Only communication systems
+What is required to achieve the appropriate level of security for an organization?	1	A single security measure	A multifaceted system	Fewer employees	Less communication
+Which areas should a successful organization protect?	2	Only physical infrastructure	Only information	Operations, physical infrastructure, people, functions, communications, and information	Only computers
+Why should an organization use multiple layers of security?	0	To protect different parts of the organization	To replace all employees	To avoid protecting information	To focus only on physical security
+How does the CNSS define information security?	1	The protection of buildings and employees	The protection of information and its critical elements	The protection of only network systems	The protection of financial resources
+What does information security protect in addition to information?	3	Only physical buildings	Only employees	Only software applications	Systems and hardware that use, store, and transmit information
+Which of the following is included in information security?	3	Information security management	Data security	Network security	All of the above
+What model did the CNSS model of information security evolve from?	2	The Risk Management Model	The Network Security Model	The CIA triangle	The Mainframe Model
+Who developed the concept behind the CIA triangle?	3	NIST	ISO	The banking industry	The computer security industry
+Since when has the CIA triangle been a standard for computer security?	1	Since the invention of the arpanet	Since the development of the mainframe	Since MD5	Since the creation of Enigma - World War II
+Why is the CIA triangle model no longer considered fully adequate?	1	It does not protect information	The security environment is constantly changing	t only protects physical assets	It is too new
+Which of the following is a threat to information security?	3	Theft	Unauthorized modification	Accidental damage	All of the above
+What led to the development of a more robust information security model?	1	Fewer security incidents	Constantly evolving threats	The removal of physical assets	The end of network security
+What is access?	0	The ability to use, manipulate, modify, or affect another subject or object	A physical asset	A type of attack	A network of computers
+What regulates the ability to access a system?	1	Assets	Access controls	Botnets	Threats
+Which of the following is a physical asset?	3	Software	Data	Hybrid-cloud	Hardware
+What is the main focus of security efforts?	0	Protecting assets, especially information assets	Creating more attacks	More white hackers	Removing access controls
+An attack can be classified as:	3	Active or passive	Intentional or unintentional	Direct or indirect	All of the above
+What is an example of a passive attack?	1	A hacker breaking into a system	Casually reading sensitive information not intended for use	A lightning strike causing a fire	Scanning ports
+What is an example of an unintentional attack?	1	A hacker using a PC to break into a system	. A lightning strike causing a building fire	Reading sensitive information	Stealing user information with a botnet
+What is the purpose of a control, safeguard, or countermeasure?	1	To increase vulnerabilities	To counter attacks, reduce risk, and improve security	To give hackers access	To create botnets
+What may a threat agent do to an information asset for personal gain?	1	Protect it	Exploit it illegally	Train it ML	Authorize it
+n software security, an exploit is usually a process used to take advantage of:	3	A policy	A security posture	A trained user	A vulnerability or exposure
+What can exploits use?	0	Existing software tools or custom-made software components	Only physical locks	Only training programs	Only security policies
+When is an information security exposure present?	2	When a vulnerability is repaired	When information is encrypted	When an attacker knows about a vulnerability	When a user is authorized
+What may be included in a protection profile?	2	Only computer hardware	Only blackhad hackers	Policy, training, awareness, and technology	Only vulnerabilities
+What is often included in the managerial aspects of a security program?	2	Storms, lightning, and tornadoes	Theft, destruction, and damage	Planning, personnel, and subordinate programs	Websites, software, and data
+Why must organizations minimize risk?	3	o give attackers access	To eliminate all assets	create more vulnerabilities	To match their risk appetite
+n an attack, what is a subject?	1	The target entity	The agent entity used to conduct the attack	The security control	The information asset being protected
+In an attack, what is an object?	1	The attacker	The target entity	A security policy	A threat category
+Can a computer be both a subject and an object of an attack?	0	Yes, it can be compromised and then used to attack other systems	No, never	Only when it is protected	Only during a natural disaster
+Which of the following is an undirected threat?	1	. A hacker targeting a system	A severe storm damaging a building	An attacker using an exploit	A person stealing information
+Which is an example of a threat agent?	0	A tornado	A security policy	A protection profile	risk appetite
+What does a vulnerability do?	1	t protects a system from attack	t opens a system or protection mechanism to attack or damage	It reduces risk automatically	It gives users legal access
+hich of the following is a vulnerability?	0	An unprotected system port	A security awareness program	A trained employee	An access control policy
+What does accuracy mean?	1	Data is accessible at all times	Data is free of errors and has the value the user expects	Data is protected from unauthorized users	Data is owned by an organization
+What does authenticity describe?	2	Data is complete and uncorrupted	Data is useful for an end purpose	Data is genuine or original	Data is available in the correct format
+What does availability mean?	1	Data is protected from disclosure	Data is accessible and correctly formatted for use without interference	Data is owned by an authorized user	Data is free from errors
+What does confidentiality protect data from?	3	Errors	Delays in delivery	Loss of usefulness	Disclosure or exposure to unauthorized individuals or systems
+What does integrity mean?	0	Data is whole, complete, and uncorrupted	Data is delivered quickly	Data is original	Data is owned by an organization
+What does possession describe?	3	Whether data is available	Whether data is accurate	Whether data is encrypted	Whether data ownership or control is legitimate or authorized
+What does utility mean?	0	Data has value or usefulness for an end purpose	Data is protected from unauthorized disclosure	Data is free of errors	Data is complete and uncorrupted
+hat usually happens when a critical characteristic of information changes?	1	The information always becomes more valuable	The value of the information often decreases	The information becomes unavailable	The information becomes authentic
+Why is timeliness important for information?	3	Information is always useful, regardless of time	Information automatically becomes accurate	Information becomes more confidential over time	Information can lose much or all of its value if delivered too late
+What can cause tension between information security professionals and end users?	3	Users always prefer delayed systems	Security professionals do not protect information	Users do not need information	Users want unhindered access, while security may require protective measures
+What may end users consider a 0.1-second delay in data computation?	1	An important security control	An unnecessary annoyance	A loss of possession	Server overload
+Why might information security professionals accept a 0.1-second delay?	2	relational database joins is not effective to fetch data	It prevents authorized access	It may enable an important task, such as data encryption	It makes data less useful
+In the library example, what is required before a patron can access the book stacks?	2	Payment for each book	Credit for each book	Identification accepted by the librarian	Computer password only
+What does the library example demonstrate about availability?	3	All users should have unrestricted access	Information should be kept secret from everyone	Information should not be written in familiar languages	Authorized users should be able to access information in a usable format
+What can make checking-account information inaccurate?	0	A teller mistakenly adding or subtracting too much money	A user checking their balance	Using the account legally	Receiving accurate account information
+What does accuracy mean?	1	Data is useful	Data is free of errors and has the expected value	Data is protected from disclosure	Data is available to everyone
+What happens to accuracy if information is intentionally or unintentionally modified?	2	It becomes more useful	It becomes confidential	It is no longer accurate	It becomes available
+What does authenticity mean?	0	Data is genuine or original	Data is always available	Data is encrypted with DES	Data is encrypted with AES
+Which type of data lacks authenticity?	2	Genuine data	Original data	Fabricated data	Complete data
+What does availability allow authorized users to do?	1	Change all data	Access information without interference or obstruction	Disclose data to others	Take ownership of information
+To have availability, information must be delivered:	3	Only in printed form	In the required format	Without any security controls	In the required format
+What does confidentiality protect information from?	1	Damage caused by errors	Disclosure to unauthorized individuals or systems	Being useful	Being available

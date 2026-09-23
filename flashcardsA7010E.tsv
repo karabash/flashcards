@@ -1,0 +1,411 @@
+What does CIA stand for in cybersecurity?	1	Control, Information, Access	Confidentiality, Integrity, Availability	Cybersecurity, Internet, Authentication	Confidentiality, Information, Authorization
+Which cybersecurity principle prevents unauthorized people from reading information?	2	Integrity	Authentication	Confidentiality	Availability
+Which principle ensures that information has not been improperly changed?	1	Confidentiality	Integrity	Availability	Accessibility
+Which principle ensures that authorized users can access systems when needed?	3	Confidentiality	Privacy	Integrity	Availability
+A hacker secretly reads a lecturer's message to students. Which principle has been violated?	1	Integrity	Confidentiality	Availability	Authentication
+The lecturer sends: “The exam starts at 10 AM.” An attacker changes the message to: “The exam starts at 11 AM.” Which principle is violated?	2	Availability	Confidentiality	Integrity	Authentication
+An attacker prevents students from receiving an exam announcement. Which principle is violated?	2	Confidentiality	Integrity	Availability	Privacy
+Which of the following is an example of a confidentiality violation?	2	A hacker changes a student's grade	A server becomes unavailable	An unauthorized person reads private messages	A database record is deleted
+Which is an example of an integrity violation?	1	Reading someone's password	Changing a database record without permission	Taking a website offline	Blocking access to a server
+Which is an example of an availability violation?	2	Reading private messages	Changing an exam time	Making a website unavailable	Viewing someone's photos
+Cybersecurity is mainly concerned with:	1	Preventing only theft	Protecting systems and information from different types of security threats	Installing passwords only	Protecting physical computers only
+Which organization is associated with the cybersecurity definition discussed in the lecture?	2	NASA	WHO	NIST	FIFA
+NIST stands for:	1	National Institute of Security Technology	National Institute of Standards and Technology	Network Institute of Security Testing	National Information Security Team
+Which of the following can be considered an information-system asset?	3	Hardware	Software	Firmware	All of the above
+Which of the following can cybersecurity protect?	3	Stored information	Processed information	Communicated information	All of the above
+An attacker monitors network communication without modifying anything. Which property is primarily affected?	2	Availability	Integrity	Confidentiality	Reliability
+If information can no longer be trusted because someone has changed it, which security property has been compromised?	1	Availability	Integrity	Confidentiality	Accessibility
+If a legitimate user cannot access a server when needed, this primarily represents a problem with:	2	Confidentiality	Integrity	Availability	Privacy
+Which statement is TRUE?	2	A security problem only occurs if information is stolen.	Attackers must change information to cause damage.	An attacker can cause a security problem simply by observing private information.	Availability is unrelated to cybersecurity.
+Before deciding how to secure a system, one important question is:	0	What are we protecting?	What color is the computer?	How old is the user?	How large is the monitor?
+Which is NOT one of the CIA Triad principles?	2	Confidentiality	Integrity	Authentication	Availability
+Which question is most closely related to confidentiality?	2	Can users access the system?	Has the information been changed?	Who is allowed to see the information?	Is the server fast?
+Which question is most closely related to integrity?	1	Who can read the information?	Can the information be trusted as correct?	Can users access the server?	Is the information encrypted?
+Which question is most closely related to availability?	0	Can authorized users access the service when required?	Has someone secretly read the data?	Has someone changed the data?	Who owns the data?
+Someone accesses your phone and reads your private photos without permission. This is mainly a violation of:	1	Integrity	Confidentiality	Availability	Reliability
+Someone changes your bank-account information without authorization. This primarily violates:	2	Confidentiality	Availability	Integrity	Accessibility
+An online banking website is attacked and customers cannot access their accounts. This primarily violates:	1	Integrity	Availability	Confidentiality	Privacy
+An asset in cybersecurity is:	1	Only a physical computer	Something valuable that needs protection	Only confidential information	An attacker
+Which could be considered an asset?	3	Password	Smartphone	Database	All of the above
+Cybersecurity threats can come from:	2	Outsiders only	Insiders only	Both insiders and outsiders	Computers only
+Why is it important to consider the impact of a security breach?	1	Every asset always requires exactly the same security.	Security measures should reflect how serious the possible consequences are.	Impact has nothing to do with security.	Only hardware can be damaged.
+Which action is most directly associated with an integrity attack?	1	Eavesdropping	Unauthorized modification	Making a system unavailable	Reading information
+Which action is most directly associated with a confidentiality attack?	0	Unauthorized observation	Modifying information	Shutting down a service	Blocking a website
+Which action is most directly associated with an availability attack?	2	Reading an email	Modifying an email	Preventing users from accessing email	Copying an email
+A hacker reads a confidential message but makes no changes. Has a security violation occurred?	2	No, because nothing was changed	No, because nothing was stolen	Yes, confidentiality was violated	Yes, integrity was violated
+Alice sends Bob a private message. Eve secretly reads it but leaves the message unchanged. Which security property was violated?	2	Integrity	Availability	Confidentiality	Authentication
+Alice sends Bob: “Transfer 100 SEK.” An attacker changes it to: “Transfer 1,000 SEK.” Which principle was violated?	1	Confidentiality	Integrity	Availability	Privacy
+A company's website is functioning correctly, but attackers overwhelm the server so customers cannot access it. What has been compromised?	2	Integrity	Confidentiality	Availability	Accuracy
+A student secretly views another student's examination results but makes no changes. What was violated?	1	Availability	Confidentiality	Integrity	Reliability
+A student changes another student's exam grade from 60% to 90%. What was violated?	2	Availability	Confidentiality	Integrity	Accessibility
+Which statement best describes integrity?	1	Information must always remain secret.	Information must remain accurate and protected from unauthorized changes.	Information must always be publicly accessible.	Information must never be stored.
+Which statement best describes availability?	2	Data should never be modified.	Data should always remain confidential.	Authorized users should be able to access resources when required.	Everyone should have access to the resource.
+Which statement best describes confidentiality?	0	Ensuring only authorized users can access protected information	Ensuring that information cannot be modified	Ensuring a server is always available	Ensuring every user can access every file
+An attacker first reads a private message and then changes its contents. Which properties have been violated?	2	Integrity only	Availability only	Confidentiality and integrity	Availability and integrity only
+An attacker secretly reads data, changes it, and then shuts down the service. Which CIA properties have been compromised?	3	Confidentiality only	Confidentiality and integrity	Integrity and availability	Confidentiality, integrity, and availability
+Which three concepts make up the CIA Triad?	1	Confidentiality, Identity, Accountability	Confidentiality, Integrity, Availability	Control, Integrity, Authentication	Confidentiality, Internet, Authorization
+Which concept answers the question: “Are you really who you claim to be?”	2	Confidentiality	Availability	Authenticity	Accountability
+An attacker pretends to be a lecturer and sends students a false message. Which security concept is primarily violated?	1	Availability	Authenticity	Accountability	Confidentiality
+Which term is most closely related to impersonation?	2	Availability	Integrity	Authenticity	Confidentiality
+Which concept answers: “Who performed this action?”	3	Confidentiality	Integrity	Authenticity	Accountability
+Forty students share one cloud account. Something is deleted, but nobody can determine which student did it. This is mainly a problem of:	2	Availability	Confidentiality	Accountability	Integrity
+Accountability is mainly concerned with:	1	Keeping information secret	Identifying who is responsible for an action	Keeping a server online	Preventing modification
+What is the main purpose of authenticity?	1	Ensuring services are always online	Determining whether an identity or message is genuine	Preventing all users from accessing data	Making data publicly available
+Someone secretly reads private information. Which security property is violated?	0	Confidentiality	Availability	Accountability	Authenticity
+Someone improperly modifies a database entry. Which property is primarily violated?	1	Confidentiality	Integrity	Availability	Accountability
+A service becomes unavailable to legitimate users. Which property is primarily violated?	3	Integrity	Authenticity	Confidentiality	Availability
+Which statement best describes confidentiality?	1	Identifying who performed an action	Keeping unauthorized users from accessing protected information	Ensuring that data has never been stored	Ensuring every user has access
+Which statement best describes integrity?	0	Protecting information against unauthorized modification	Keeping services online only	Identifying the sender of a message only	Making all data private
+Which statement best describes availability?	1	Ensuring that users are genuine	Ensuring timely and reliable access to information and services	Ensuring that nobody can change data	Ensuring that nobody knows who performed an action
+Which statement best describes accountability?	2	Making services available	Ensuring data cannot be viewed	Linking actions to responsible users or entities	Preventing all system changes
+An attacker changes a message from: “Exam at 10 AM” to: “Exam at 11 AM” Which principle is primarily violated?	0	Integrity	Accountability	Authenticity	Availability
+An attacker creates a completely new message while pretending it came from the lecturer. Which concept is most directly involved?	1	Availability	Authenticity	Confidentiality	Accountability
+Which concept is most closely connected with maintaining trust in the correctness of information?	0	Integrity	Availability	Confidentiality	Accountability
+Why is integrity especially important in banking?	1	Banks should make every transaction public.	Customers need to trust that financial information and transactions are correct.	Banks must prevent customers from accessing their accounts.	Integrity only protects passwords.
+Someone secretly changes financial transactions in a bank system. Which security property is primarily affected?	1	Availability	Integrity	Accountability	Confidentiality
+What is a Denial-of-Service attack mainly designed to affect?	2	Confidentiality	Integrity	Availability	Authenticity
+What does DoS stand for?	1	Data of Security	Denial of Service	Defense of Systems	Distribution of Security
+What does DDoS stand for?	0	Distributed Denial-of-Service	Digital Data Operating System	Distributed Data of Security	Direct Denial of Software
+A website receives so much malicious traffic that normal users cannot access it. This is primarily:	1	A confidentiality violation	An availability violation	An authenticity violation	An accountability violation
+Which action could cause an availability problem?	2	Reading someone's email	Changing someone's grade	Overwhelming a server with traffic	Pretending to be another user
+Alice receives a message apparently from Bob. However, an attacker actually created the message while pretending to be Bob. Which concept has been violated?	2	Integrity	Availability	Authenticity	Accountability
+A company discovers that confidential files were viewed by an unauthorized employee. Which property was compromised?	1	Availability	Confidentiality	Authenticity	Accountability
+A university administrator changes a student's grade without authorization. Which property was compromised?	0	Integrity	Availability	Confidentiality	Authenticity
+A university website is temporarily unavailable because attackers overload its server. Which principle was compromised?	2	Confidentiality	Integrity	Availability	Authenticity
+A system records exactly which administrator changed a student's grade. Which security property does this support?	1	Confidentiality	Accountability	Availability	Authenticity
+Which pair is correctly matched?	1	Confidentiality — identifying who performed an action	Integrity — protection against unauthorized modification	Availability — verifying a user's identity	Accountability — keeping information private
+Which pair is incorrectly matched?	3	Confidentiality — unauthorized viewing	Integrity — unauthorized modification	Availability — service interruption	Authenticity — identifying who must pay for a service
+An attacker reads a private message and then modifies its contents. Which properties have been violated?	0	Confidentiality and integrity	Availability and accountability	Authenticity and availability	Accountability only
+An attacker pretends to be an employee and modifies company records. Which two concepts are most directly involved?	0	Authenticity and integrity	Availability and confidentiality	Accountability and availability	Confidentiality and availability
+A user performs a malicious action, but everyone in the organization uses the same login credentials. What becomes particularly difficult?	2	Maintaining confidentiality	Maintaining availability	Establishing accountability	Encrypting information
+Which situation best represents an authenticity problem?	2	A document cannot be opened	A document is modified	An attacker pretends to be the document's legitimate sender	A document is secretly read
+Which situation best represents an accountability problem?	0	Nobody knows which authorized user deleted a file	An outsider reads a private file	A service goes offline	A message is modified
+A customer cannot trust that their bank balance is correct. Which property is most directly in question?	0	Integrity	Availability	Confidentiality	Authenticity
+A company's cloud provider manages its payroll information. A security incident occurs and it is unclear which organization was responsible. Which concept is especially relevant?	1	Confidentiality	Accountability	Availability	Integrity
+Which of the following is the best summary?	2	Security is only concerned with keeping data secret.	Security only protects against outsiders.	Security involves protecting confidentiality, integrity, availability, authenticity, and accountability.	Availability is the only important property.
+Why do we classify cybersecurity incidents by severity?	1	Because every incident has the same impact	Because different incidents can have different consequences	Because only high-impact incidents matter	Because severity only affects passwords
+Which are the three impact levels discussed in the lecture?	1	Minor, normal, extreme	Low, moderate, high	Safe, dangerous, critical	Public, private, confidential
+A loss that causes only a limited adverse effect is generally classified as:	2	High impact	Moderate impact	Low impact	Critical impact
+A loss that causes a serious adverse effect is generally classified as:	1	Low	Moderate	None	Public
+A loss that may cause catastrophic consequences is classified as:	2	Low impact	Moderate impact	High impact	No impact
+A shopping-mall advertisement computer becomes unavailable for two hours. This is most likely:	0	Low impact	High impact	Catastrophic impact	Always moderate impact
+A computer controlling critical hospital equipment becomes unavailable. This could be classified as:	1	Low impact	High impact	No impact	Public impact
+Why can two identical technical failures have different severity levels?	1	Because technical failures are random	Because severity depends on the context and consequences	Because every hospital system is secure	Because availability does not matter
+Which statement is correct?	1	All components of a system need exactly the same level of security	Security levels should depend on the associated risk	Static websites always require maximum security	Internal systems cannot be attacked
+A public static webpage containing general company information may often be treated as:	0	Lower priority than a sensitive database	More critical than a payment system	Always high impact	Impossible to attack
+Which system is likely to require stronger protection?	1	Static public information page	Sensitive database portal	Public advertisement screen	Public contact page only
+Which of the following is an example of an insider threat?	1	A random person on the Internet	An employee misusing authorized access	A customer viewing a public page	A search engine crawling a website
+What is attacker–defender asymmetry?	1	Attackers and defenders always need equal effort	Defenders may need to protect all weaknesses while attackers need only one successful weakness	Defenders always have an advantage	Attackers must protect the network
+In the house analogy, the defender must:	1	Secure only one door	Secure all possible entry points	Ignore the windows	Leave one door open
+In the house analogy, the attacker generally needs to:	2	Break every door	Break every window	Find one successful entry point	Protect all entry points
+Which statement best describes attacker–defender asymmetry?	1	Attackers often need to succeed everywhere	Defenders often need to protect many places	Defenders only protect one weakness	Attackers are always more powerful
+Why can increasing the cost of an attack improve security?	0	It can reduce an attacker's motivation	It guarantees that no attack will ever happen	It removes all vulnerabilities	It makes usability better automatically
+Which factor can make an attack less attractive?	2	Very low cost	Very high potential reward with no risk	High computational and financial cost	No chance of detection
+The blockchain example mainly illustrates:	1	Confidentiality	Making attacks costly and difficult	Password reuse	Static web security
+A 51% attack is associated with:	1	Email systems	Blockchain systems	Password managers	Firewalls only
+What is meant by treating security as an afterthought?	1	Designing security before building a system	Thinking about security only after the system has already been created	Removing security controls	Encrypting all data first
+Why is security as an afterthought considered a poor approach?	1	It always improves usability	Existing design choices may already create vulnerabilities	It removes all attack surfaces	It reduces development cost
+What is the preferred approach?	1	Security after deployment only	Security by design	No security during development	Security only after an attack
+Security by design means:	0	Security is considered from the beginning	Security is added only after an incident	Security is ignored during coding	Only administrators think about security
+Security should ideally be considered:	2	Only during deployment	Only after testing	Throughout the system lifecycle	Only after users complain
+What does the security–usability trade-off mean?	1	Security and usability are always unrelated	Stronger security controls may make a system harder to use	Usable systems are always insecure	Secure systems cannot be used
+A system requires a 40-character password, fingerprint, passport, and administrator approval for every login. What problem may this create?	1	Too little security	Poor usability	Increased confidentiality breach	No authentication
+Why can excessive security controls be harmful?	0	Users may become frustrated and avoid or bypass them	They always cause confidentiality attacks	They automatically reduce integrity	They remove all authentication
+Which statement is most accurate?	1	More security is always better	Security should be proportional to risk	Every system should use maximum security	Usability should always be ignored
+A low-risk system normally requires:	1	The same security as a nuclear control system	Security controls appropriate to its risk	No security at all	Maximum possible restrictions
+A high-impact system may justify:	0	Stronger authentication	Less monitoring	Weaker access control	No security
+Why does cost matter in cybersecurity?	0	Security controls require resources and money	Security is always free	Cost has no relationship with risk	Only attackers have costs
+A company should generally spend more security resources on:	0	Assets with high potential impact	Assets with no value	Public advertisements only	Systems nobody uses
+What is the best approach to security spending?	1	Spend the maximum possible amount on everything	Match security investment to risk and impact	Spend nothing on security	Protect only public information
+A public information page is temporarily unavailable for five minutes. The most likely impact is:	0	Lower than a critical hospital system outage	Always catastrophic	Always high	Impossible to classify
+A hospital system used during patient treatment is unavailable. The key reason this may be high impact is:	1	It has more colors on the screen	It can affect patient safety	It uses a database	It is inside a building
+An attacker finds one forgotten open port and uses it to enter a system. This illustrates:	1	Confidentiality only	Attacker–defender asymmetry	Security usability	Accountability
+A company develops an entire application and only then asks how to secure it. This is an example of:	1	Security by design	Security as an afterthought	Low impact design	Availability planning
+A development team considers security requirements while designing each component. This is an example of:	0	Security by design	Security as an afterthought	Poor usability	High availability only
+A login system is so difficult that employees begin sharing passwords to avoid the process. This demonstrates:	0	Why usability matters in security	Why all passwords should be longer	Why confidentiality is unimportant	Why every system should remove authentication
+Which statement best summarizes risk-based security?	1	All systems should receive identical security controls	Security controls should reflect the potential impact and threat level	Only external attacks matter	Security should ignore cost
+Which of the following is most likely to be high impact?	1	Temporary failure of an advertisement screen	Temporary failure of a hospital control system	Loss of a public brochure	A minor formatting error on a website
+Which concept explains why defenders often have a harder task than attackers?	1	Availability	Attacker–defender asymmetry	Accountability	Authenticity
+Which statement is correct about good security design?	1	Security should be added only after deployment	Security should be considered at every layer	Security should always reduce usability	Security should ignore cost
+Which three ideas were emphasized in this part of the lecture?	1	Encryption, hashing, malware	Attacker–defender asymmetry, security as an afterthought, security vs usability	Authentication, passwords, biometrics	Firewalls, routers, switches
+What is an adversary?	1	A security control	A person or entity attempting to attack a system	A vulnerability	A firewall
+Another term for an adversary is:	0	Threat agent	Countermeasure	Asset	Patch
+Which of the following is an example of an adversary?	1	Firewall	Hacker	Password policy	Encryption
+What is a vulnerability?	1	An actual attack	A weakness that may be exploited	A defensive control	An attacker
+Which is an example of a vulnerability?	1	Strong authentication	Unpatched software	Firewall rule blocking traffic	Encrypted database
+What is an attack surface?	1	Only the physical building	All reachable and exploitable points through which a system can be attacked	Only open ports	Only employees
+Which could be part of an attack surface?	3	Open ports	Employees	Web interfaces	All of the above
+Which is a physical attack surface?	0	Office window	SQL query	Encryption algorithm	Password hash
+Which is a digital attack surface?	1	Office door	Public API	Employee cafeteria	Physical key
+Which can become a human attack surface?	0	Employee	Router cable	Hard disk only	Firewall rule
+What is a threat?	0	A potential cause of harm	An actual attack only	A countermeasure	A backup
+What is risk?	1	A guarantee that an attack will happen	The likelihood and possible impact of harm	An encryption key	A firewall
+What is an attack?	1	A potential weakness	An actual malicious action	A defensive control	A software update
+Which statement is correct?	1	Threat and attack mean exactly the same thing	Threat is potential, attack is actual	Attack is potential, threat is actual	Neither involves malicious activity
+What is a countermeasure?	1	A weakness	A security control designed to reduce or prevent harm	A hacker	An attack surface
+Which is an example of a countermeasure?	1	Open port	Firewall	Hacker	Vulnerability
+Which sequence best represents the security process?	1	Countermeasure → attack → vulnerability	Adversary → vulnerability → threat → risk → attack → countermeasure	Attack → adversary → firewall	Risk → countermeasure → adversary
+An open and vulnerable port is best described as:	0	Part of the attack surface	A countermeasure	An adversary	An asset only
+A hacker actually exploits an open port. This is:	2	Threat only	Risk only	Attack	Countermeasure
+A hacker may exploit an open port in the future. This represents:	0	Threat	Countermeasure	Patch	Availability
+Which of the following is most likely part of an external attack surface?	0	Public web server	Offline paper notebook only	Locked drawer	Disconnected monitor
+Which is a common network attack surface?	0	Open port	Closed notebook	Printed poster	Keyboard layout
+Why are Internet-facing servers attractive to attackers?	0	They are reachable from outside networks	They cannot contain vulnerabilities	They never use ports	They cannot be scanned
+Which type of code may create an attack surface?	0	Code processing incoming data	Code that does nothing	Printed code	Offline notes only
+Which incoming data can create potential attack surfaces?	3	Email	XML	Office documents	All of the above
+A web login form can be considered:	0	An attack surface	A threat agent	A countermeasure only	An adversary
+A database-connected web form can be:	0	A possible attack surface	An attacker	A physical threat only	A firewall
+What is social engineering?	1	Building social networks	Manipulating people to reveal information or perform actions	Patching a server	Encrypting a file
+Which is an example of social engineering?	0	Pretending to be IT support and asking for a password	Updating software	Closing an unused port	Encrypting traffic
+Why can employees become part of the attack surface?	0	They may have access to sensitive systems or information	Employees are always attackers	They cannot be protected	They do not use passwords
+An attacker befriends an employee to steal an access token. This is an example of:	0	Social engineering	Encryption	Availability	Patching
+Which may be targeted in a social engineering attack?	3	Password	Access card	Security token	All of the above
+A server has an unused open port. What does this increase?	0	Attack surface	Accountability	Integrity automatically	Availability automatically
+An employee receives a fake email asking them to enter their password into a fake website. This is most likely:	0	Social engineering	Physical attack	Availability attack	Backup failure
+A hacker identifies an old unpatched service but has not attacked it yet. The unpatched service is:	0	Vulnerability	Attack	Countermeasure	Adversary
+The possibility that the hacker may exploit that unpatched service represents:	0	Threat/risk	Countermeasure	Authentication	Backup
+The hacker successfully exploits the service. This becomes:	0	Attack	Threat only	Vulnerability only	Countermeasure
+The administrator patches the vulnerable service. This is:	0	Countermeasure	Adversary	Threat	Attack
+A company disables an unused service and closes its open port. What security principle is being applied?	1	Increasing attack surface	Reducing attack surface	Removing accountability	Increasing risk
+Why should defenders know their own attack surface?	0	To identify possible entry points before attackers exploit them	To increase vulnerabilities	To remove all users	To make attacks easier
+Which pair is correctly matched?	1	Adversary — weakness	Vulnerability — exploitable weakness	Countermeasure — malicious user	Attack — possibility of harm
+Which pair is incorrectly matched?	3	Threat — potential harm	Risk — likelihood/impact	Attack — actual malicious action	Vulnerability — security control
+An attacker scans a network to identify open ports. What are they primarily attempting to identify?	0	Attack surface	Countermeasures only	Backups	Accountability
+Which statement best describes the relationship between attack surface and vulnerability?	1	They are always exactly the same thing	Vulnerabilities may exist within exposed attack-surface components	Attack surfaces are always secure	Vulnerabilities only exist physically
+Which statement is most accurate?	1	Only computers can be attack surfaces	Humans, software, networks, and physical locations can all contribute to attack surface	Attack surface only refers to hackers	Firewalls remove every attack surface
+Which are the three attack surface categories discussed in the lecture?	1	Internal, external, physical	Network, software, human	Hardware, password, firewall	Confidentiality, integrity, availability
+A network attack surface mainly involves:	1	Human emotions	Network communication and exposed services	Physical documents only	Software source code only
+Which is an example of a network attack surface?	0	Open network port	Weak employee awareness	Software coding bug only	Office chair
+Which is associated with a software attack surface?	0	Vulnerability in an operating system	Social engineering	Office door	Employee trust
+Which is associated with a human attack surface?	0	Phishing	TCP port	Web server code	Router protocol only
+Vulnerabilities in enterprise networks, WANs, or the Internet belong mainly to:	2	Software attack surface	Human attack surface	Network attack surface	Physical attack surface only
+Which is an example of a network protocol attack?	0	DoS attack	Weak password written on paper	Bug in a desktop application only	Employee forgetting a badge
+Disrupting communication links is mainly associated with:	0	Network attack surface	Human attack surface	Software installation	Password management
+Eavesdropping on network communication primarily affects:	0	Confidentiality	Availability	Accountability	Usability
+Changing information while it is being transmitted primarily affects:	1	Availability	Integrity	Confidentiality only	Accountability
+A Denial-of-Service attack primarily affects:	2	Integrity	Authenticity	Availability	Accountability
+Which is most clearly part of a software attack surface?	0	Operating system vulnerability	Employee	Public road	Social engineering phone call
+A vulnerability in an application belongs to:	1	Network attack surface	Software attack surface	Human attack surface	Physical security only
+A vulnerable web server is mainly an example of:	0	Software attack surface	Human attack surface	Physical attack surface	Accountability
+The code of an operating system can be part of:	0	Software attack surface	Human attack surface	Network cable only	Social engineering
+Which statement best describes the human attack surface?	0	Vulnerabilities created by people, human error, or social engineering	Vulnerabilities only in routers	Vulnerabilities only in web applications	Vulnerabilities only in operating systems
+Why might an attacker prefer attacking a human?	1	Humans never have access	It may be easier than directly breaking technical defenses	Humans cannot make mistakes	Technical systems have no security
+An attacker tricks an employee into giving them a password. This is:	0	Social engineering	Network routing	Operating system patching	DoS
+An employee accidentally sends sensitive information to the wrong person. This is primarily an example of:	0	Human error	Network protocol vulnerability	Web server vulnerability	DoS
+A trusted insider is:	0	Someone who already has legitimate access	Always an external hacker	A type of firewall	A software vulnerability
+An attacker finds an exposed service on a public IP address. Which attack surface is most directly involved?	1	Human	Network	Software only	Physical only
+An attacker exploits a bug in a web application. Which attack surface is primarily involved?	2	Network	Human	Software	Physical
+An attacker phones an employee pretending to be IT support. Which attack surface is involved?	2	Network	Software	Human	Database
+A company has a very secure network, but an employee gives their access token to an attacker. What was primarily exploited?	0	Human attack surface	Network routing	Web server software	Availability
+Why may technical controls fail to stop an attacker who has stolen valid credentials?	0	The attacker may appear to the system as an authorized user	Firewalls stop working permanently	Software disappears	Availability is always lost
+An attacker overwhelms a public-facing network service with traffic. Which combination is most accurate?	1	Human attack surface + confidentiality	Network attack surface + availability	Software attack surface + accountability	Human attack surface + integrity
+An attacker exploits faulty code in an operating system. Which category applies?	2	Human attack surface	Network attack surface	Software attack surface	Physical attack only
+An attacker convinces a system administrator to reveal login credentials. Which category applies?	2	Network attack surface	Software attack surface	Human attack surface	Availability only
+A weakness in a communication protocol is primarily part of:	0	Network attack surface	Human attack surface	Software licensing	Physical security
+A vulnerability in web server code is primarily part of:	2	Human attack surface	Network attack surface only	Software attack surface	Physical attack surface
+Which pair is correctly matched?	0	Network attack surface — protocol vulnerabilities	Software attack surface — social engineering	Human attack surface — operating system code	Network attack surface — trusted employee manipulation
+Which pair is correctly matched?	0	Human attack surface — phishing	Software attack surface — employee trust	Network attack surface — human error	Human attack surface — operating system bug
+Which pair is correctly matched?	0	Software attack surface — application vulnerability	Network attack surface — phishing	Human attack surface — open TCP port	Software attack surface — physical employee manipulation
+An attacker intercepts data in transit and changes it. Which combination is most accurate?	0	Network attack surface + integrity violation	Human attack surface + availability violation	Software attack surface + accountability violation	Network attack surface + usability problem
+An attacker listens to private network traffic but does not modify it. Which combination is correct?	1	Software + integrity	Network + confidentiality	Human + availability	Network + accountability
+An attacker uses malicious input to exploit a web application bug. The vulnerability itself belongs primarily to:	1	Human attack surface	Software attack surface	Physical attack surface	Social attack surface only
+Why is the human attack surface considered especially important?	0	Humans can possess legitimate access that attackers may manipulate them into revealing	Humans cannot access secure systems	Human attacks only affect physical buildings	Humans are never protected by security controls
+Which of the following can potentially affect all three CIA properties?	0	A successful human-based credential theft	A decorative website image	A disconnected monitor	An unused keyboard
+Which statement is most accurate?	1	Attack surfaces are only technical	Attack surfaces can involve networks, software, and people	Humans are never attack surfaces	Software cannot contain vulnerabilities
+Which summary best matches the lecture?	1	Attackers only target network protocols	Attackers may target communication, software weaknesses, or people	Human attacks are unrelated to cybersecurity	Network security makes software and people irrelevant
+What is the root goal in the banking attack tree?	1	Social engineering	Bank account compromise	Sniffing	Malware installation
+What does an attack tree mainly show?	1	The physical location of servers	Different ways an attacker could achieve an objective	Only previously successful attacks	Only network vulnerabilities
+Which is a major branch of the banking attack tree?	0	User credential compromise	Backup generation	Encryption management	Hardware replacement
+Which is an example of user credential compromise?	0	Token theft	Installing security patches	Closing unused ports	Creating backups
+User surveillance is intended mainly to:	1	Improve availability	Obtain information about the user's authentication	Patch vulnerabilities	Reduce attack surface
+Theft of a written PIN belongs primarily to:	0	Credential compromise	Availability improvement	System backup	Software patching
+Malware installation primarily relates to which attack surface?	0	Software	Network only	Physical only	Environmental
+Which is included under vulnerability exploitation in the diagram?	3	Hidden code	Worms	Malicious emails	All of the above
+What is a brute-force attack?	0	Repeatedly attempting possible values	Encrypting data	Blocking all communication	Updating software
+Sniffing primarily targets:	0	Network communication	Physical doors	Backup storage	Software licensing
+Sniffing private communication primarily threatens:	0	Confidentiality	Availability	Accountability	Usability
+Social engineering primarily targets:	0	Human attack surface	Network cables	Operating-system code	Firewalls
+Which is associated with user communication with an attacker?	3	Social engineering	Pharming	Fraudulent-site redirection	All of the above
+Pharming attempts to:	0	Redirect users toward fraudulent resources	Increase system availability	Patch web servers	Encrypt passwords
+What does MITM stand for?	1	Main Internet Threat Model	Man-in-the-Middle	Multiple Internal Transfer Method	Malicious Internet Transmission Mechanism
+In a MITM attack, the attacker:	0	Places themselves between communicating parties	Creates system backups	Removes passwords	Installs software updates
+An active MITM attack may affect:	3	Confidentiality	Integrity	Authenticity	All of the above
+User credential guessing is associated with:	0	Brute-force attacks	Backups	Encryption	Security updates
+Which is a separate branch in the attack tree?	0	Security policy violation	Password backup	Software licensing	Data compression
+What is session hijacking?	0	Taking control of an authenticated session	Encrypting a user session	Closing a session correctly	Resetting a password
+Why might an attacker prefer session hijacking?	0	They may abuse an already authenticated session	It always improves integrity	It requires no system interaction	It creates backups automatically
+Which is the best description of an attack-tree root?	0	The main attacker's objective	A security control	A firewall rule	A network packet
+In an attack tree, a branch represents:	0	A possible way toward the root objective	Only a successful attack	A security patch	An employee account
+What does a leaf generally represent?	0	A more specific attack technique	The complete organization	The final defensive policy	The network itself
+Which comparison is correct?	0	Attack surface = where; attack tree = how	Attack surface = how; attack tree = when	Attack surface = defender; attack tree = hacker	Attack surface = cost; attack tree = severity
+What should be the first step when designing cybersecurity protection?	1	Install a firewall	Identify the assets	Buy antivirus software	Block all users
+Which of the following is an asset category discussed in the lecture?	3	Hardware	Software	Data	All of the above
+Which of the following is NOT one of the four main asset categories discussed?	3	Hardware	Software	Data	Adversary
+Which is an example of a hardware asset?	0	Router	Student database	Operating system	Password policy
+Which is an example of a software asset?	1	Laptop case	Operating system	Student ID card	Network cable
+Which is an example of a data asset?	0	Exam questions	Router	Switch	Laptop
+Which is an example of a communication asset?	0	Wi-Fi network	Research paper only	Laptop battery	Password note
+A university router belongs primarily to which asset category?	0	Hardware	Data	Software	Human
+A university operating system belongs primarily to:	1	Hardware	Software	Data	Human
+Student grades are primarily:	2	Hardware	Software	Data	Network devices
+University Wi-Fi is primarily part of:	0	Communication facilities and networks	Data only	Software only	Human attack surface
+Why is saying “protect the device” too vague?	1	Devices never contain valuable information	A device contains several different assets with different security requirements	Devices cannot be attacked	Only hardware needs protection
+Which university asset may contain examination questions?	0	Canvas/LMS	Router only	Switch only	Keyboard
+Which university asset contains communication and sensitive messages?	0	Email account	Mouse	Monitor	Printer cable
+Why should student records be protected?	0	They may contain sensitive personal information	They are always public	They cannot be changed	They have no value
+Protecting data from unauthorized reading primarily supports:	0	Confidentiality	Integrity	Availability	Usability
+Protecting data from unauthorized modification primarily supports:	2	Availability	Confidentiality	Integrity	Accountability
+Ensuring authorized users can access data when needed supports:	2	Authenticity	Integrity	Availability	Accountability
+Which statement is correct?	1	All assets require identical security controls	Security controls should depend on asset importance and impact	Only hardware needs protection	Communication infrastructure is not an asset
+A hospital server controlling critical equipment would most likely be classified as:	1	Low impact	High impact	No impact	Public asset
+A public advertisement screen that stops working briefly may be classified as:	1	High impact	Low impact	Always catastrophic	Critical infrastructure
+After asset identification, what should also be evaluated?	0	Severity and risk	Screen size	Device color	Keyboard type
+Which statement correctly compares an asset and an attack surface?	0	Asset = what we protect; attack surface = where an attacker may attack	Asset = attacker; attack surface = defender	Asset = vulnerability; attack surface = risk	They are exactly the same
+Which statement correctly compares an asset and a vulnerability?	0	Asset is valuable; vulnerability is a weakness	Asset is a weakness; vulnerability is an attacker	They mean the same thing	Asset is always software
+Which security process is most logical?	1	Countermeasure → asset → attack	Identify assets → assess risks → classify impact → apply controls	Attack first → identify assets later	Ignore assets → protect everything equally
+A university wants to protect student grades stored in a database. What is the asset?	0	Student grades/database	Hacker	Phishing email	Firewall
+An attacker uses a weak login form to reach student records. What is the weak login form?	1	Asset	Attack surface/vulnerability	Countermeasure	Impact level
+A hacker tries to steal exam questions from Canvas. What are the exam questions?	1	Threat	Asset	Attack surface	Countermeasure
+A university's Wi-Fi becomes unavailable for several hours. Which asset category is affected?	0	Communication facilities and networks	Data only	Hardware only	Human only
+A staff laptop containing sensitive research data is stolen. Which assets may be affected?	2	Hardware only	Data only	Hardware and data	None
+Why should assets be identified before security controls are selected?	0	Different assets have different values, risks, and protection requirements	All assets have identical importance	Security controls are unrelated to assets	Only attackers need to understand assets
+Which university asset would generally require stronger confidentiality?	1	Public campus map	Student medical information	Public advertisement	Public opening hours
+Which university asset would generally require strong integrity protection?	0	Student grades	Decorative website logo	Public campus photograph	Public advertisement
+Which system would generally have a high availability requirement?	0	Critical hospital system	Decorative display board	Public poster	Archived advertisement
+Which statement best summarizes good cybersecurity planning?	1	Protect everything equally without analysis	Identify assets, assess their importance and risk, then apply appropriate controls	Protect only hardware	Protect only Internet-connected systems
+What is unauthorized disclosure?	1	Authorized users modifying data	An unauthorized entity gaining access to protected data	A system becoming unavailable	An administrator creating an account
+Which threat consequence is most closely connected with confidentiality?	0	Unauthorized disclosure	Disruption	Usurpation	Availability
+Sensitive data is directly released to an unauthorized entity. This is:	0	Exposure	Obstruction	Repudiation	Misuse
+An attacker reads sensitive data while it travels between two legitimate systems. This is:	0	Interception	Falsification	Incapacitation	Misappropriation
+Which technique involves learning sensitive information indirectly?	0	Inference	Masquerade	Misuse	Obstruction
+An attacker bypasses security protections and accesses sensitive information. This is:	0	Intrusion	Repudiation	Obstruction	Falsification
+Which are associated with unauthorized disclosure?	0	Exposure, interception, inference, intrusion	Masquerade, falsification, repudiation	Incapacitation, corruption, obstruction	Misappropriation and misuse
+Deception occurs when:	1	A system becomes unavailable	An entity receives false information and believes it	Data is backed up	A user logs out
+Pretending to be an authorized user is:	0	Masquerade	Exposure	Obstruction	Corruption
+Masquerade primarily threatens:	0	Authenticity	Availability	Usability	Performance
+Creating false information that deceives an authorized user is:	0	Falsification	Interception	Incapacitation	Exposure
+Falsification primarily affects:	0	Integrity	Availability	Hardware	Usability
+Falsely denying responsibility for an action is called:	0	Repudiation	Inference	Intrusion	Obstruction
+Repudiation is closely related to:	0	Accountability	Screen availability	Software usability	Network speed
+Which are forms of deception?	0	Masquerade, falsification, repudiation	Exposure, interception, inference	Corruption, obstruction, incapacitation	Misuse and interception
+What is disruption?	1	Unauthorized disclosure of information	Interruption of correct system operation or services	Pretending to be another user	Gaining physical ownership only
+Disruption primarily affects:	0	Availability	Confidentiality only	Authenticity only	Accountability only
+Disabling a component so that the system cannot operate is:	0	Incapacitation	Masquerade	Exposure	Repudiation
+Undesirably altering system functions or data is:	0	Corruption	Interception	Misappropriation	Inference
+Preventing delivery of a service by hindering system operation is:	0	Obstruction	Falsification	Exposure	Masquerade
+A DoS attack is most closely associated with:	0	Obstruction	Repudiation	Exposure	Masquerade
+Which are forms of disruption?	0	Incapacitation, corruption, obstruction	Exposure, interception, intrusion	Masquerade, falsification, repudiation	Misappropriation and inference
+What is usurpation?	0	Unauthorized control over system services or functions	Accidental disclosure only	Correct use of a system	Creating a backup
+Taking unauthorized logical or physical control of a system resource is:	0	Misappropriation	Falsification	Exposure	Repudiation
+Causing a system component to perform a harmful or unauthorized function is:	0	Misuse	Inference	Interception	Masquerade
+An attacker reads private messages travelling across a network. Which action occurred?	0	Interception	Corruption	Misuse	Repudiation
+An attacker pretends to be a university administrator. This is:	0	Masquerade	Obstruction	Inference	Exposure
+An attacker changes an exam announcement from 10 AM to 11 AM. This is best described as:	0	Falsification	Interception	Incapacitation	Misappropriation
+A user performs an action and later falsely claims they did not do it. This is:	0	Repudiation	Exposure	Intrusion	Corruption
+An attacker takes a university website offline. This most directly represents:	0	Disruption	Unauthorized disclosure	Deception	Masquerade
+An attacker disables a critical server component. This is:	0	Incapacitation	Falsification	Inference	Exposure
+An attacker floods a service with traffic and prevents legitimate users from accessing it. This is:	0	Obstruction	Masquerade	Repudiation	Exposure
+An attacker obtains administrative control of a server without authorization. This is:	0	Misappropriation	Inference	Interception	Falsification
+An authorized employee uses a system to perform prohibited harmful actions. This is:	0	Misuse	Exposure	Interception	Incapacitation
+Which pair is correctly matched?	0	Exposure — unauthorized disclosure	Masquerade — disruption	Obstruction — deception	Misappropriation — inference
+Which pair is correctly matched?	0	Falsification — deception	Interception — disruption	Incapacitation — disclosure	Repudiation — usurpation
+Which pair is correctly matched?	0	Obstruction — disruption	Masquerade — disclosure	Exposure — usurpation	Inference — deception
+Which pair is correctly matched?	0	Misappropriation — usurpation	Repudiation — disruption	Intrusion — deception	Corruption — disclosure
+What is the main difference between interception and inference?	0	Interception directly accesses transmitted data; inference derives information indirectly	They are exactly the same	Inference always modifies data	Interception always disables a service
+What is the main difference between masquerade and falsification?	0	Masquerade concerns a false identity; falsification concerns false data	Both mean service interruption	Masquerade affects hardware only	Falsification means taking physical control
+What is the main difference between misappropriation and misuse?	0	Misappropriation involves taking unauthorized control; misuse involves abusing a system/resource	They mean exactly the same thing	Misuse means interception	Misappropriation means disclosure
+What are the two main categories of attacks?	1	Hardware and software	Passive and active	Internal and external	Low and high
+What does a passive attack mainly do?	1	Modifies system resources	Observes or obtains information without changing the system	Deletes files	Disables servers
+Which is an example of a passive attack?	0	Eavesdropping	Message modification	DoS	Masquerade
+What is the main goal of a passive attacker?	1	Destroy the system	Obtain information	Modify messages	Disable the network
+Passive attacks primarily threaten:	0	Confidentiality	Availability	Integrity only	Usability
+Which are the two passive attack types discussed?	1	Replay and masquerade	Release of message contents and traffic analysis	DoS and message modification	Corruption and obstruction
+Reading the actual contents of a private communication is:	0	Release of message contents	Replay	Masquerade	DoS
+Studying who communicates with whom without reading message content is:	0	Traffic analysis	Message modification	Replay	Masquerade
+Monitoring network transmissions without altering them is:	0	Passive attack	Active attack	DoS	Falsification
+Which statement best describes an active attack?	1	The attacker only listens	The attacker alters system resources or affects operation	The attacker only observes traffic	The attacker performs no action
+Active attacks may involve:	3	Modification of data	Creation of false data	Disruption of services	All of the above
+Which is NOT one of the four active attack categories in the lecture?	3	Replay	Masquerade	Modification of messages	Traffic analysis
+A replay attack involves:	0	Capturing and retransmitting valid information	Reading data only	Closing a network port	Deleting a server
+Pretending to be another legitimate user is:	0	Masquerade	Traffic analysis	Eavesdropping	Release of message contents
+Masquerade primarily affects:	0	Authenticity	Availability	Performance	Usability
+Changing a transmitted message is:	0	Message modification	Traffic analysis	Release of message contents	Passive monitoring
+Message modification primarily affects:	0	Integrity	Confidentiality only	Availability only	Performance
+Which attack attempts to make a service unavailable?	0	DoS	Traffic analysis	Eavesdropping	Release of message contents
+DoS primarily threatens:	0	Availability	Confidentiality	Authenticity	Accountability
+Which attack is passive?	0	Traffic analysis	Replay	Masquerade	DoS
+An attacker secretly listens to messages traveling between two users but makes no changes. This is:	0	Passive attack	Active attack	DoS	Replay
+An attacker captures a valid login request and sends it again later. This is:	0	Replay attack	Traffic analysis	Eavesdropping only	DoS
+An attacker pretends to be the lecturer and sends students a message. This is:	0	Masquerade	Traffic analysis	Release of message contents	Passive monitoring
+An attacker changes “Exam at 10” to “Exam at 11.” This is:	0	Modification of messages	Traffic analysis	Release of message contents	Passive observation
+An attacker floods Canvas with traffic so students cannot access it. This is:	0	Denial of Service	Traffic analysis	Eavesdropping	Release of message contents
+An attacker observes encrypted traffic and studies message timing and size. This is:	0	Traffic analysis	Replay	Masquerade	DoS
+An attacker reads an unencrypted email while it travels across a network. This is:	0	Passive attack	Active attack	Message modification	DoS
+An attacker inserts false data into a communication stream. This is:	0	Active attack	Passive attack	Traffic analysis	Eavesdropping only
+What is the main difference between passive and active attacks?	0	Passive observes information; active modifies or disrupts systems	Passive always damages systems; active does not	Active only targets humans	Passive only targets hardware
+Which combination is correct?	0	Eavesdropping — Passive — Confidentiality	DoS — Passive — Availability	Masquerade — Passive — Authenticity	Traffic analysis — Active — Integrity
+Which combination is correct?	0	Message modification — Active — Integrity	Traffic analysis — Active — Availability	Eavesdropping — Active — Authenticity	DoS — Passive — Confidentiality
+Which combination is correct?	0	DoS — Active — Availability	Masquerade — Passive — Confidentiality	Replay — Passive — Availability	Traffic analysis — Active — Integrity
+Which combination is correct?	0	Masquerade — Active — Authenticity	Eavesdropping — Active — Integrity	Replay — Passive — Availability	DoS — Passive — Confidentiality
+Why can traffic analysis still reveal useful information even when messages are encrypted?	0	Communication patterns themselves may reveal information	Encryption automatically reveals passwords	Traffic analysis modifies encrypted messages	Encryption disables the network
+Which attack involves creation of a false data stream?	0	Active attack	Passive attack	Traffic analysis only	Eavesdropping only
+Which principle says security mechanisms should be simple?	1	Isolation	Economy of mechanism	Least privilege	Complete mediation
+If authentication fails, the system denies access to everyone. This is:	1	Open design	Fail-safe defaults	Modularity	Least astonishment
+Which principle says users should receive only the permissions they need?	0	Least privilege	Layering	Open design	Encapsulation
+A student is allowed to create one VM but cannot access billing or delete other resources. This demonstrates:	0	Least privilege	Masquerade	Open design	Traffic analysis
+Which principle says important access should sometimes require multiple conditions?	0	Separation of privilege	Economy of mechanism	Isolation	Least astonishment
+Which principle says every important access request should be checked?	0	Complete mediation	Modularity	Least common mechanism	Open design
+Security should not depend entirely on attackers not knowing how the system works. This is:	0	Open design	Isolation	Fail-safe default	Least privilege
+Which principle tries to reduce unnecessary sharing of resources?	0	Least common mechanism	Separation of privilege	Layering	Modularity
+Giving every student a separate account instead of one shared administrator account supports:	0	Least common mechanism	Open design	Traffic analysis	Repudiation
+Which principle says security should be easy for users to use correctly?	0	Psychological acceptability	Fail-safe defaults	Encapsulation	Isolation
+A public web server is separated from an internal database. This demonstrates:	0	Isolation	Masquerade	Complete mediation	Replay
+A DMZ is mainly an example of:	0	Isolation	Brute force	Traffic analysis	Repudiation
+Hiding database internals behind an application interface demonstrates:	0	Encapsulation	Availability	Replay	Exposure
+Dividing a system into authentication, database, and logging components demonstrates:	0	Modularity	Fail-safe defaults	Masquerade	Interception
+Using firewall, MFA, encryption, and monitoring together demonstrates:	0	Layering	Open design	Least privilege only	Least astonishment
+Another common idea related to layering is:	0	Defense in depth	Traffic analysis	Pharming	Exposure
+Which principle says a system should behave in a predictable way?	0	Least astonishment	Least privilege	Complete mediation	Separation of privilege
+Which statement best describes fail-safe defaults?	1	If something breaks, allow everyone in	If something breaks, default to a secure state	Remove all authentication	Keep all ports open
+Which is the best example of least privilege?	1	Giving every employee administrator access	Giving a user only the permissions needed for their task	Using one account for everyone	Disabling authentication
+What is the main purpose of isolation?	0	Separate important systems so one compromise does not easily spread	Make all systems public	Share all accounts	Remove access controls
+What is the difference between least privilege and separation of privilege?	0	Least privilege limits permissions; separation of privilege requires multiple conditions or authorities	They are exactly the same	Least privilege is only physical	Separation of privilege means no authentication
+What is the difference between isolation and layering?	0	Isolation separates systems; layering uses multiple security defenses	They are identical	Isolation means encryption only	Layering means one firewall only
+Why is economy of mechanism important?	0	Simpler systems are easier to understand, test, and secure	Complexity always improves security	It removes authentication	It allows unlimited privileges
+Why is psychological acceptability important?	0	Users may bypass security that is too difficult or annoying	Users should never understand security	Security should always be inconvenient	It removes the need for passwords
+Which combination is correctly matched?	0	Fail-safe defaults — deny access when security fails	Least privilege — give everyone administrator access	Isolation — connect every server directly	Economy of mechanism — maximize complexity
+What does a security policy define?	0	The security rules	Only the firewall	Only passwords	Only backups
+Which is part of security implementation?	3	Prevention	Detection	Response	All of the above
+Restoring a system from backup is:	2	Prevention	Detection	Recovery	Policy
+What does assurance mean?	0	Confidence that security works correctly	A guarantee that no attack can happen	A backup process	A firewall rule
+What does evaluation mean?	0	Testing or examining security	Writing a policy only	Installing hardware only	Blocking all users
+What is interoperability?	1	Systems being completely isolated	Different systems being able to work together	Every system using the same password	No communication between systems
+Why can too much isolation be a problem?	0	Legitimate users may not be able to access services	It always increases malware	It removes integrity	It creates passwords
+What is the main purpose of security standards?	0	Provide common rules and practices	Make every system different	Prevent communication	Remove security policies
+Which is the correct security implementation sequence?	0	Prevent → Detect → Respond → Recover	Attack → Delete → Hide → Leave	Policy → Risk → Asset → User	Detect → Prevent → Ignore → Recover
+Which statement is correct?	0	Good security should balance protection, usability, and interoperability	Security should always completely isolate all systems	Standards reduce interoperability	Evaluation is not needed
+Which concept asks, “Can we trust the system to enforce the policy?”	0	Assurance	Recovery	Interoperability	Prevention
+Which concept asks, “Does the system meet the required security criteria?”	0	Evaluation	Policy	Detection	Recovery
+Standards help improve:	2	Security only	Interoperability only	Both security and interoperability	Neither
+A system that is secure but impossible for legitimate users to access has a problem mainly with:	0	Usability/interoperability	Confidentiality only	Authenticity only	Accountability only
+Which is the best summary?	0	Policy defines rules, implementation applies them, assurance builds confidence, evaluation tests them, and standards help systems work consistently together	Policy and evaluation are the same thing	Security only needs prevention	Isolation is always the final goal
+Why are cybersecurity standards used?	0	To provide common security rules and guidance	To remove all security controls	To make systems incompatible	To eliminate users
+Which organization is a U.S. federal agency?	1	ISO	NIST	ITU-T	ISOC
+NIST publishes:	0	FIPS and Special Publications	Only operating systems	Only web browsers	Only hardware
+Which organization is closely associated with Internet standards?	0	ISOC	NIST only	WHO	UNESCO
+Internet standards are commonly published as:	0	RFCs	PDFs only	FIPS only	BIOS files
+What does RFC stand for?	0	Request for Comments	Rules for Computers	Remote File Control	Recommended Firewall Configuration
+ITU is associated mainly with:	0	Telecommunications	Banking only	Universities only	Operating systems only
+ITU-T standards are commonly called:	0	Recommendations	Passwords	Tokens	Certificates
+ISO is:	0	An international standards organization	A type of malware	A firewall	A programming language
+Which standard family is strongly associated with information security management?	0	ISO/IEC 27000	HTML 5	USB	JPEG
+What is interoperability?	0	Different systems can work together	Systems are always isolated	Every system uses the same password	Nobody can communicate
+Standards help interoperability because:	0	They provide common rules and protocols	They block communication	They remove networking	They force every company to use identical hardware
+Which statement is correct?	1	Standards guarantee 100% security	Standards help reduce risk but do not guarantee perfect security	Standards are unnecessary	Standards only apply to governments
+What is defense in depth?	0	Using multiple layers of security	Using only one password	Removing all firewalls	Putting every server online
+Which is an example of defense in depth?	0	Firewall + MFA + encryption + monitoring	One weak password	No authentication	One open server
+Which principle says users should get only necessary permissions?	0	Least privilege	Traffic analysis	Masquerade	Repudiation
+What should be identified first when designing security?	0	Assets	Attackers' names	Computer colors	Keyboard layouts
+Which can be an attack surface?	3	Login page	API	Employee	All of the above
+Which three properties make up the CIA Triad?	0	Confidentiality, Integrity, Availability	Control, Internet, Access	Confidentiality, Identity, Authentication	Computer, Internet, Application
+Which is the best overall approach?	0	Identify assets, assess risks and attack surfaces, apply design principles, and follow suitable standards	Install one firewall and stop	Completely isolate every system	Ignore standards and invent everything yourself
