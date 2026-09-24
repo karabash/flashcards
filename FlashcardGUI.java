@@ -37,7 +37,7 @@ public class FlashcardGUI extends JFrame {
 
     /** Creates the application window and registers its inner-screen classes. */
     public FlashcardGUI() {
-        super("Computer Security Flashcards");
+        super(FlashcardTitle.fromFile(CARD_FILE));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setMinimumSize(new Dimension(900, 650));
         setSize(1050, 760);
@@ -77,7 +77,7 @@ public class FlashcardGUI extends JFrame {
             card.setBorder(new EmptyBorder(45, 65, 45, 65));
             card.setPreferredSize(new Dimension(650, 500));
 
-            JLabel title = new JLabel("Information Security Flashcards");
+            JLabel title = new JLabel(FlashcardTitle.fromFile(CARD_FILE));
             title.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 32));
             title.setForeground(TEXT);
             title.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -247,7 +247,7 @@ public class FlashcardGUI extends JFrame {
             correct[0].setSelected(true);
             homePanel.updateCount();
             JOptionPane.showMessageDialog(FlashcardGUI.this,
-                    "Question saved to flashcards.tsv.",
+                    "Question saved to " + CARD_FILE.getFileName() + ".",
                     "Saved",
                     JOptionPane.INFORMATION_MESSAGE);
         }
@@ -389,6 +389,47 @@ public class FlashcardGUI extends JFrame {
         }
     }
 
+    /**
+     * Utility class for reading the flashcard deck title from the TSV file.
+     *
+     * <p>The first line may contain deck metadata in this format:
+     * {@code #title<TAB>Course title}. If no title is present, the TSV
+     * filename without the extension is used as a fallback.</p>
+     */
+    private static final class FlashcardTitle {
+
+        /** Prevents creation of utility-class objects. */
+        private FlashcardTitle() {
+        }
+
+        /**
+         * Returns the title defined by the selected TSV file.
+         *
+         * @param file path to the flashcard TSV file
+         * @return deck title, or the filename if no title metadata exists
+         */
+        static String fromFile(Path file) {
+            if (Files.exists(file)) {
+                try (BufferedReader reader = Files.newBufferedReader(file)) {
+                    String firstLine = reader.readLine();
+
+                    if (firstLine != null && firstLine.startsWith("#title\t")) {
+                        String title = firstLine.substring(7).trim();
+                        if (!title.isEmpty()) {
+                            return title;
+                        }
+                    }
+                } catch (IOException ignored) {
+                    // Fall back to the filename if the title cannot be read.
+                }
+            }
+
+            return file.getFileName()
+                    .toString()
+                    .replaceFirst("(?i)\\.tsv$", "");
+        }
+    }
+
     /** File-storage inner class for reading and writing the shared TSV question bank. */
     private static final class FlashcardStorage {
         static List<Flashcard> load() {
@@ -414,17 +455,35 @@ public class FlashcardGUI extends JFrame {
             return result;
         }
 
+        /**
+         * Saves all flashcards while preserving the deck title.
+         *
+         * @param cards flashcards to write to the selected TSV file
+         */
         static void save(List<Flashcard> cards) {
+            String title = FlashcardTitle.fromFile(CARD_FILE);
+
             try (BufferedWriter writer = Files.newBufferedWriter(
                     CARD_FILE,
                     StandardOpenOption.CREATE,
                     StandardOpenOption.TRUNCATE_EXISTING)) {
 
+                // Write the deck title as metadata before the questions.
+                writer.write("#title");
+                writer.write(SEP);
+                writer.write(title);
+                writer.newLine();
+
                 for (Flashcard card : cards) {
-                    writer.write(card.question + SEP + card.correctAnswer);
+                    writer.write(card.question);
+                    writer.write(SEP);
+                    writer.write(Integer.toString(card.correctAnswer));
+
                     for (String answer : card.answers) {
-                        writer.write(SEP + answer);
+                        writer.write(SEP);
+                        writer.write(answer);
                     }
+
                     writer.newLine();
                 }
             } catch (IOException e) {
